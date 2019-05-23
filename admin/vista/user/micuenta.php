@@ -46,7 +46,7 @@
                 <th>Telefono</th>
                 <th>Correo</th>
                 <th>Fecha Nacimiento</th>
-                <th>Avatar</th>
+                <th>Imagen</th>
                 <th>Eliminar</th>
                 <th>Modificar</th>
                 <th>Cambiar contrasena</th>
