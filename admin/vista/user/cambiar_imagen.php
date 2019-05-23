@@ -11,17 +11,17 @@
         <title>Modificar Avatar</title>
         <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    <body class="bodyCreado">
         <?php
             $codigo = $_GET["codigo"];
         ?>
-                    <form class="box" method="POST" action="../../controladores/user/cambiar_imagen.php?codigo=<?php echo $codigo ?>" enctype="multipart/form-data">
+                    <form class="cajaCreado" method="POST" action="../../controladores/user/cambiar_imagen.php?codigo=<?php echo $codigo ?>" enctype="multipart/form-data">
                         <h3>Selecciona una imagen</h3>
                         <br>
                         <input type="file" name="txtImg">
                         <br>
-                        <button class="boton" type="submit" name="aceptar">Aceptar</button>
-                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+                        <button class="botones" type="submit" name="aceptar">Aceptar</button>
+                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="botones">
                     </form>
     </body>
 </html>

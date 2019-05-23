@@ -9,14 +9,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Cambiar Contrasena</title>
-        <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
+        <link type="text/css" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    
+    <body >
         <?php
             $codigo_admin = $_GET["codigo_admin"];
             $codigo = $_GET["codigo"];
         ?>
-        <form class="box" method="POST" action="../../controladores/admin/cambiar_contrasena.php?codigo_admin=<?php echo $codigo_admin ?>">
+        <form method="POST" action="../../controladores/admin/cambiar_contrasena.php?codigo_admin=<?php echo $codigo_admin ?>">
             <input type="hidden" id="codigo" name="codigo" value="<?php echo $codigo ?>">
 
             <label class="contrasena" for="contrasenaNueva">Contrasena Nueva (*)</label>

@@ -11,7 +11,7 @@
         <title>Modificar datos de persona</title>
         <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    <body class="bodyCreado">
         <?php
             $codigo = $_GET["codigo"];
             $sql = "SELECT * FROM usuario where usu_codigo=$codigo";
@@ -22,7 +22,7 @@
             if ($result->num_rows > 0){
                 while($row = $result->fetch_assoc()){
         ?>
-                    <form class="box" method="POST" action="../../controladores/user/modificar.php">
+                    <form class="cajaCreado" method="POST" action="../../controladores/user/modificar.php">
                         <input type="hidden" id="codigo" name="codigo" value="<?php echo $codigo ?>">
 
                         <label class="modificar" for="cedula">Cedula (*)</label>
@@ -53,8 +53,8 @@
                         <input type="email" id="correo" name="correo" value="<?php echo $row["usu_correo"]; ?>" required_placeholder="Ingrese el correo electronico...">
                         <br>
 
-                        <input type="submit" id="modificar" name="modificar" value="Modificar" class="boton" >
-                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+                        <input type="submit" id="modificar" name="modificar" value="Modificar" class="botones" >
+                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="botones">
                     </form>
         <?php            
                 }

@@ -11,7 +11,7 @@
         <title>Eliminar Persona</title>
         <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    <body class="bodyCreado">
         <?php
             $codigo = $_GET["codigo"];
             $sql = "SELECT * FROM usuario WHERE usu_codigo=$codigo";
@@ -22,7 +22,7 @@
             if ($result->num_rows > 0){
                 while($row = $result->fetch_assoc()){
         ?>
-                    <form class="box" method="POST" action="../../controladores/user/eliminar.php">
+                    <form class="cajaCreado" method="POST" action="../../controladores/user/eliminar.php">
                         <input type="hidden" id="codigo" name="codigo" value="<?php echo $codigo ?>">
 
                         <label class="elimina" for="cedula">Cedula (*)</label>
@@ -46,8 +46,8 @@
                         <label class="elimina" for="correo">Correo Electronico (*)</label>
                         <input type="email" id="correo" name="correo" value="<?php echo $row["usu_correo"];?>" disabled>
                         <br>
-                        <input class="boton" type="submit" id="eliminar" name="eliminar" value="Eliminar">
-                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+                        <input class="boton" type="submit" id="eliminar" name="eliminar" value="Eliminar" class="botones">
+                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="botones">
                     </form>
         <?php
                 }

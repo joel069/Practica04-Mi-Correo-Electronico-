@@ -11,11 +11,14 @@
         <title>Cambiar Contrasena</title>
         <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+
+    <h1>CAMBIAR CONTRASEÑA</h1>
+
+    <body class="bodyCreado">
         <?php
             $codigo = $_GET["codigo"];
         ?>
-        <form class="box" method="POST" action="../../controladores/user/cambiar_contrasena.php">
+        <form class="cajaCreado" method="POST" action="../../controladores/user/cambiar_contrasena.php">
             <input type="hidden" id="codigo" name="codigo" value="<?php echo $codigo ?>">
 
             <label class="contrasena" for="contrasenaActual">Contrasena Actual (*)</label>
@@ -26,8 +29,8 @@
             <input type="password" id="contrasena2" name="contrasena2" value="" required placeholder="Ingrese su contrasena nueva...">
             <br>
 
-            <input type="submit" id="modificar" name="modificar" value="Modificar" class="boton">
-            <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+            <input type="submit" id="modificar" name="modificar" value="Modificar" class="botones">
+            <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="botones">
         </form>
     </body>
 </html>

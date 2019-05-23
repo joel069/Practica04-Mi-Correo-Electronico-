@@ -220,6 +220,7 @@ border-radius: 5px;
 border-color: black;
 
 
+
 }
 
 .bodyCreado{
@@ -227,4 +228,12 @@ border-color: black;
     background-image: url(../Practica4/imagenes/login.jpg);
     background-size: cover;
 
+}
+
+.botones{
+
+    color: lightblue;
+    border-radius: 5px;
+    border-color: black;
+    border-style: groove;
 }
