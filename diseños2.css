@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    border-style: groove;
+    background-image: url(../Practica4/imagenes/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.imgAdmin{
+width: 150px;
+height: 150px;
+margin-left: 10px !important;
+margin-bottom: 100px;
+margin-top: 30px;
+
+}
+
+
+nav li {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    padding: 15px 15px;
+    min-width: 6%;
+    width: 13% !important;
+    height: 5%;
+    text-align: center;
+    float: left;
+    border:0;
+    background:  rgba(236, 99, 145, 0.671);
+    border: 2px solid #c01919;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+    list-style: none;
+}
+
+nav li a{
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+    width: 100% auto;
+    text-decoration: none;
+}
+
+
+nav{
+    width: 60%;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    float: left;
+    text-align: center;
+    color: #2ecc71;
+}
+
+.mensajes{
+    clear: both;
+    width: 100%;
+    color: black;
+    margin-top: 250px;
+}
+
+#buzon{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+    color: rgb(2, 2, 27);
+    clear: both;
+}
+
+#buzon tr,#buzon th,#buzon td{
+    border:3px solid rgba(17, 5, 187, 0.671);
+    background-color: white;
+}
+
+#form_mensajes input[type=text]{
+    border:0;
+    background-color: rgb(225, 236, 238);
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgba(32, 8, 167, 0.671);
+    transition: 0.25s;
+    float: left;
+}
+
+#form_mensajes input[type=submit]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid  rgba(0, 3, 7, 0.671);
+    padding: 14px 40px;
+    outline: none;
+    color: rgba(194, 7, 7, 0.685);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    float: left;
+    padding: 20px;
+}
+
+#form_mensajes input[type=submit]:hover{
+    background:  rgba(32, 8, 167, 0.671);
+}
+
+.mensajes h3{
+    color: black;
+    text-align: center;
+    border-style: groove;
+    border-color:  rgba(196, 20, 34, 0.671);
+    border-radius: 20px;
+    margin-right: 600px;
+    margin-left: 600px;
+    background-color: white;
+}
+
+.info img{
+    width: 150px;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+}
+
+.info img{
+    width: 150px;
+    border: 2px solid rgb(201, 15, 15);
+    border-radius: 10px;
+}
+
+.info p{
+    color: white;
+    font-weight: bold;
+}
+
+
+.info2{
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+
+#formulario01 input[type="submit"],#formulario01 input[type="reset"]{
+    border:0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #093aa5;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(14, 33, 207);
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;   
+    clear: both; 
+}
+
+#formulario01{
+    width: 50%;
+    padding: 10px;
+    margin-left: 320px;
+    margin-right: 120px;
+    margin-top: 200px;
+    /* background: #004bbb; -->*/
+    clear: both;
+    text-align: center;
+    background-image: url(../Practica4/imagenes/index1.jpg);
+    background-position: center;
+}
+
+#formulario01 label{
+    display: block;
+    color: rgb(170, 9, 23);
+    min-width: 7%;
+    width: 7%;
+    float: left;
+}
+
+#formulario01 input[type="text"]{
+    clear: both;
+    min-width: 70%;
+    width: 90%;
+    border:0;
+    background: rgb(239, 243, 245);
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: rgb(0, 5, 10);
+    transition: 0.25s;
+    margin-left: 120px;
+}
+
+.cajaCreado{
+
+text-align: center;
+margin-top: 100px;
+margin-left: 800px;
+margin-bottom: 30%;
+margin-right: 200px;
+background-color: greenyellow;
+border: 2px;
+border-style: groove;
+border-radius: 5px;
+border-color: black;
+
+
+}
+
+.bodyCreado{
+
+    background-image: url(../Practica4/imagenes/login.jpg);
+    background-size: cover;
+
+}

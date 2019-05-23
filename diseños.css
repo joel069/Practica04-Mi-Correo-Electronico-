@@ -1,0 +1,377 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    border-style: groove;
+    background-image: url(../Practica4/imagenes/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodydif { 
+
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    border-style: groove;
+    background-color: slategray;
+
+}
+
+.box{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background: rgba(105, 165, 235, 0.671);
+    text-align: center;
+    border-style: hidden;
+    border-radius: 55px;
+  
+}
+
+.box_registro{
+    width: 400px;
+    position: absolute;
+    top: 58%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background:  rgba(105, 165, 235, 0.671);
+    text-align: center;
+    border-radius: 55px;
+}
+
+.box h1, .box_registro h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid ;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(5, 8, 216);
+    
+}
+
+.registro{
+    border:0;
+    background: none;
+    margin: 2% 4%;
+    text-align: center;
+    width: 60%;
+    border: 2px solid #12ca3a;
+  
+    outline: none;
+    border-radius: 04px;
+    transition: 0.25s;
+    background-image: url(../Practica04-Mi-Correo-Electronico/imagenes/login.jpg);
+    margin-left: 16 0px;
+}
+
+#cedula{
+    margin-top: 4%;
+}
+
+.boton{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d40d0d;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    clear: both;
+}
+
+
+
+#crearUsu{
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+
+.error, .box p{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+
+}
+
+.box a{
+    color: #70bb8f;
+    font-size: 18px;
+}
+
+nav li {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    padding: 15px 15px;
+    min-width: 6%;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+    float: left;
+    border:0;
+    background:  rgba(105, 165, 235, 0.671);
+    border: 2px solid #c01919;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+    list-style: none;
+}
+
+nav li a{
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+    width: 100% auto;
+    text-decoration: none;
+}
+
+
+nav{
+    width: 60%;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.info img{
+    width: 150px;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+}
+
+.info p{
+    color: white;
+    font-weight: bold;
+}
+
+.mensajes{
+    clear: both;
+    width: 100%;
+}
+
+.mensajes h3{
+    color: white;
+    text-align: center;
+}
+
+#buzon{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+    color: white;
+    clear: both;
+}
+
+#buzon tr,#buzon th,#buzon td{
+    border:3px solid rgba(9, 21, 36, 0.671);
+    background: none;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+
+    
+}
+
+
+
+#form_mensajes input[type=text]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    float: left;
+}
+
+#form_mensajes input[type=submit]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid  rgba(105, 165, 235, 0.671);
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    float: left;
+}
+
+#form_mensajes input[type=submit]:hover{
+    background:  rgba(105, 165, 235, 0.671);
+}
+
+
+
+#formulario01{
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #191919;
+    clear: both;
+    text-align: center;
+}
+
+#formulario01 label{
+    display: block;
+    color: white;
+    min-width: 7%;
+    width: 7%;
+    float: left;
+}
+
+#formulario01 input[type="text"]{
+    clear: both;
+    min-width: 80%;
+    width: 90%;
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+#formulario01 input[type="submit"],#formulario01 input[type="reset"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;    
+}
+
+#formulario01 input[type="submit"]:hover,#formulario01 input[type="reset"]:hover{
+    background: #2ecc71
+}
+
+
+.accion a{
+    color: white;
+    text-decoration: none;
+}
+.accion a:hover{
+    color: #2ecc71;
+}
+
+.box h3{
+    color: white;
+    text-align: center;
+}
+
+.box input[type="file"]{
+    color: white;
+    width: 300px;
+}
+
+.box .contrasena, .box .modificar,.box .elimina{
+    color: white;
+    text-align: center;
+}
+
+.box #contrasena1,.box #contrasena2{
+    clear: both;
+    width: 3%;
+
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 50px;
+    border-bottom: 2px solid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.modificar + input, .elimina + input{
+    clear: both;
+    width: 80%;
+    margin: auto;
+
+    border:0;
+    background: none;
+    display: block;
+    border-bottom: 2px solid;
+    padding: 7px 10px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.info2{
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+
+.info2 img{
+    width: 150px;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+}
+
+.info2 p{
+    color: white;
+    font-weight: bold;
+}
