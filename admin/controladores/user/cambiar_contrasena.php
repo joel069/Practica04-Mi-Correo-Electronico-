@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Cambiar Contrasena</title>
+        <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    <body class="bodyCreado">
         <?php
             //Incluir conexion a la BD
             include "../../../config/conexionBD.php";

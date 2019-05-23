@@ -8,10 +8,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Sistema de Gestion de Mensajes Electronicos</title>
+        <title>Sistema de Gestion </title>
         <link rel="stylesheet" rel="stylesheet" href="../../../diseños2.css">
         <script type="text/javascript" src="ajax.js"></script>
     </head>
+    <h1>SISTEMA DE GESTION DE CORREO</h1>
     <body>
         <?php
             include '../../../config/conexionBD.php';
@@ -19,7 +20,7 @@
         ?>
         <nav>
             <ul>
-                <li><a href="index.php?codigo=<?php echo $codigo ?>"">Inicio</a></li>
+                <li><a  href="index.php?codigo=<?php echo $codigo ?>"">Inicio</a></li>
                 <li><a href="nuevo_mensaje.php?codigo=<?php echo $codigo ?>">Nuevo Mensaje</a></li>
                 <li><a href="mensajes_enviados.php?codigo=<?php echo $codigo ?>">Mensajes Enviados</a></li>
                 <li><a href="micuenta.php?codigo=<?php echo $codigo ?>">Mi cuenta</a></li>
@@ -90,9 +91,7 @@
             </form>
         </section>
         <footer>
-            <p>Copyright</p>
-            <p>David Andres Morales Rivera</p>
-            <p>2019</p>
+        <p> &#169; VASQUEZ FAJARDO FRANKLIN JOEL && 05-2019</p>
         </footer>
     </body>
 </html>

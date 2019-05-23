@@ -47,9 +47,7 @@
             <input type="reset" id="cancelar" name="cancelar" value="Cancelar">
         </form>
         <footer>
-            <p>Copyright</p>
-            <p>David Andres Morales Rivera</p>
-            <p>2019</p>
+        <p> &#169; VASQUEZ FAJARDO FRANKLIN JOEL &nbsp; 05-2019</p>
         </footer>
     </body>
 </html>

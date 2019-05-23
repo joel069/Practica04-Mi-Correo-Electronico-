@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Eliminar Mensaje Electronico</title>
+        <link type="text/css" rel="stylesheet" href="../../../diseños2.css">
     </head>
-    <body>
+    <body class="bodyCreado">
         <?php
 
             //Incluir conexion a la BD
@@ -18,7 +19,7 @@
             $sql = "UPDATE correo SET cor_eliminado = 'S', cor_elimina = '$codigo_admin', cor_fecha_elimina = '$fecha' WHERE cor_codigo = '$codigo_mensaje'";
 
             if ($conn->query($sql) === TRUE){
-                echo "<p>Se ha eliminado el mensaje electronico correctamente</p>";
+                echo  "<p>Se ha eliminado el correo electronico correctamente</p>" ;
             }else{
                 echo "<p>Error".$sql."<br>".mysqli_error($conn)."</p>";
             }

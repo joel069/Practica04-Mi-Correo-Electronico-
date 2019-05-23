@@ -46,7 +46,7 @@
                         <label class="elimina" for="correo">Correo Electronico (*)</label>
                         <input type="email" id="correo" name="correo" value="<?php echo $row["usu_correo"];?>" disabled>
                         <br>
-                        <input class="boton" type="submit" id="eliminar" name="eliminar" value="Eliminar" class="botones">
+                        <input class="botones" type="submit" id="eliminar" name="eliminar" value="Eliminar" class="botones">
                         <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="botones">
                     </form>
         <?php
